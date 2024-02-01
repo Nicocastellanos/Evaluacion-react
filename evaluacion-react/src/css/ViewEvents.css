@@ -1,0 +1,41 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    border:2px solid hsl(221, 43%, 49%);
+    margin: 20px;
+    padding: 28px;
+    border-radius: 1rem;
+    justify-content: center;
+    width: 350px;
+}
+.td{
+    display: grid;
+    padding: 8px;
+    grid-template-columns: 1fr auto;
+}
+.title{
+    font-weight: 700;
+    padding: 0 18px;
+    background-color: hsl(224, 59%, 38%);
+    border-radius: 1rem;
+    margin-right: 80px;
+    color: white;
+}
+.button-1, .button-2, .button-3{
+    padding: 10px;
+}
+.button-1:hover{
+    border: 1px solid rgb(68, 189, 84); 
+    border-radius: 1rem;   
+}
+.button-2:hover{
+    border: 1px solid rgb(189, 76, 68); 
+    border-radius: 1rem;   
+}
+.button-3:hover{
+    border: 1px solid rgb(68, 90, 189); 
+    border-radius: 1rem; 
+}
+.tbody-1, .tbody-2{
+    display: flex;
+}

@@ -1,0 +1,35 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    border:2px solid hsl(202, 48%, 51%);
+    width: 400px;
+    height: 550px;
+    border-radius: 1rem;
+    padding: 28px;
+    margin-left: 100px;
+    margin-top: -85px;
+}
+body{
+    margin: 0;
+}
+.create-event{
+    margin: 100px 0 0 550px;
+}
+.label{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+.message{
+    color: rgba(223, 6, 6, 0.774);
+    margin-left: 110px;
+}
+.input{
+    color: grey;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 1rem;
+}
