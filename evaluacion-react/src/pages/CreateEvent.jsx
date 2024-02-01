@@ -38,7 +38,7 @@ const CreateEvent = () => {
     <div className='create-event'>
       <Heading 
       color='white' 
-      background=' hsl(10, 79%, 65%)' 
+      background=' hsl(229, 60%, 22%)' 
       m={100} 
       w='400px'
       display='grid'
