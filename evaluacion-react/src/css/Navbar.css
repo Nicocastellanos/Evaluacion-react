@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: hsl(229, 60%, 22%);
+    padding: 12px;
 }
 .nav{
     display: flex;

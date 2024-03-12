@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Heading, Text } from '@chakra-ui/react'
+import imagen from '../images/event.png'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
     ml={600}
     alignItems= "center"
     borderRadius="1rem" >
-      <img src="./src/images/event.png" alt="logo" width={100}/>
+      <img src={imagen} alt="logo" width={100}/>
         <Heading fontSize='100px' p={4}>
           Evently
           </Heading>
